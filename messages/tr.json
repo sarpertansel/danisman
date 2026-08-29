@@ -1,0 +1,10 @@
+{
+  "Navigation": {"primaryLabel":"Ana menü","home":"Ana Sayfa","services":"Hizmetler","sectors":"Sektörler","trainings":"Eğitimler","equipment":"Ekipmanlar","projects":"Projeler","about":"Hakkımızda","contact":"İletişim"},
+  "Languages": {"tr":"Türkçe","en":"İngilizce","switchTo":"Dili {language} olarak değiştir"},
+  "Shared": {"consultationCta":"Danışmanlık Talebi Oluştur","learnMore":"Detaylı Bilgi","back":"Geri","continue":"Devam Et","submit":"Talebi Gönder"},
+  "Form": {"projectStep":"Proje Bilgileri","contactStep":"İletişim Bilgileri","applicantType":"Başvuru Türü","businessType":"İşletme Türü","serviceType":"Hizmet Türü","city":"Şehir","currentState":"Mevcut Durum","capacityOrArea":"Kapasite veya Metrekare","targetDate":"Hedef Tarih","budgetRange":"Bütçe Aralığı","description":"Talep Açıklaması","fullName":"Ad Soyad","companyName":"Şirket Adı","phone":"Telefon","email":"E-posta","preferredContact":"Tercih Edilen İletişim Yöntemi","kvkkAccepted":"KVKK metnini okudum ve onaylıyorum"},
+  "Validation": {"required":"Bu alan zorunludur.","invalidEmail":"Geçerli bir e-posta adresi girin.","invalidPhone":"Geçerli bir telefon numarası girin.","selectService":"En az bir hizmet seçin.","acceptKvkk":"Devam etmek için KVKK onayı gereklidir.","requestFailed":"Talebiniz gönderilemedi. Lütfen tekrar deneyin."},
+  "Success": {"title":"Talebiniz alındı","description":"Ekibimiz en kısa sürede sizinle iletişime geçecek.","referenceNumber":"Başvuru numaranız: {referenceNumber}"},
+  "Footer": {"description":"Turizm ve gastronomi işletmeleri için uçtan uca danışmanlık.","legalLabel":"Yasal bağlantılar","kvkk":"KVKK Aydınlatma Metni","privacy":"Gizlilik Politikası","copyright":"© {year} Mihenk. Tüm hakları saklıdır."},
+  "Home": {"eyebrow":"Turizm ve gastronomi danışmanlığı","title":"İşletmenizi güçlü bir temelle kurun.","description":"Mihenk, yeni yatırımlardan mevcut işletmelerin geliştirilmesine kadar uzmanlık ve saha deneyimi sunar."}
+}

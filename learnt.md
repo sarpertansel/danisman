@@ -1,0 +1,34 @@
+# Proje Kararları
+
+- Uygulama mimarisi: SOLID uyumlu, özellik bazlı modüler mimari ve sadeleştirilmiş Clean Architecture.
+- Projenin tamamında MVVM kullanılmayacak. React tarafında gerektiğinde ViewModel benzeri özel hook'lar kullanılabilir.
+- Ana katmanlar: presentation, application, domain ve infrastructure.
+- İş mantığı Prisma, Sanity, Resend veya başka bir dış servise doğrudan bağımlı olmayacak.
+- İlk faz modüler monolit olacak; mikroservis veya ayrı Node.js backend kullanılmayacak.
+- Teknolojiler: Next.js, TypeScript, Sanity CMS, PostgreSQL ve Prisma.
+- Site Türkçe ve İngilizce olacak.
+- Öncelikli hedef pazar Türkiye olacak.
+- Marka yönü olarak seçkin ve güven veren stil seçildi: koyu yeşil, sıcak altın ve köklü üst segment görünüm.
+- Marka adı şimdilik geçici olacak ve daha sonra değiştirilecek. Tasarım ve örnek içeriklerde geçici olarak `Mihenk` kullanılabilir.
+- Danışmanlık talepleri form üzerinden alınacak ve e-posta bildirimi gönderilecek.
+- Danışmanlık formu iki aşamalı olacak: proje bilgileri ve iletişim bilgileri.
+- Form; başvuru türü, işletme türü, hizmet türü, şehir, mevcut durum, kapasite/metrekare, hedef tarih, bütçe, açıklama, iletişim bilgileri ve KVKK onayını içerecek.
+- Form gönderilince talep PostgreSQL'e kaydedilecek; işletmeye ve başvuru sahibine e-posta gönderilecek.
+- Form verileri istemci ve sunucu tarafında doğrulanacak; Turnstile ve hız sınırıyla spam azaltılacak.
+- Talep e-postadan önce veritabanına kaydedilecek. E-posta hatası talebin kaybolmasına neden olmayacak.
+- Başarılı başvurulara benzersiz başvuru numarası verilecek; hassas bilgiler loglanmayacak.
+- İlk fazda dosya yükleme olmayacak.
+- Sanity; site ayarları, menü, alt bilgi, ana sayfa, hizmetler, sektörler, eğitimler, ekipman kategorileri, projeler, hakkımızda, iletişim, SEO ve yasal metinleri yönetecek.
+- İlk fazda Blog / Rehber bölümü olmayacak.
+- Türkçe ve İngilizce içerikler aynı kayıtta yönetilecek. Eksik dil yayımlanmayacak ve otomatik çeviri yapılmayacak.
+- İlk fazda WhatsApp entegrasyonu, müşteri hesabı ve talep yönetim paneli olmayacak.
+- Eğitimler yüz yüze olacak; video, doküman ve sertifika sistemi olmayacak.
+- Projede test case yazılmayacak.
+- Paket yöneticisi pnpm 11.19.0 olarak belirlendi.
+- Proje Next.js 16.3.3, React 19.2.8 ve TypeScript 5.9 ile başlatıldı.
+- Windows ortamında pnpm alt süreçleri için paketlenmiş Node dizininin PATH'e ve etkileşimsiz çalıştırmalarda `CI=true` değerinin ortama eklenmesi gerekiyor.
+- TR/EN lokalizasyon iskeleti `next-intl` ile `/tr` ve `/en` zorunlu önekleri altında kuruldu; varsayılan dil Türkçe.
+- Next.js 16.3.3 nedeniyle eski `middleware.ts` yerine `src/proxy.ts` kullanılıyor.
+- Locale-aware navigasyon yardımcıları `src/i18n/navigation.ts`, istek yapılandırması `src/i18n/request.ts`, rota sözleşmesi `src/i18n/routing.ts` içinde.
+- Kök layout aktif dili `<html lang>` üzerine yazabilmek için `src/app/[locale]/layout.tsx` konumunda; mesaj anahtarları `messages/tr.json` ve `messages/en.json` dosyalarında birebir eşleşiyor.
+- Ortak site kabuğu header, footer ve dil değiştiriciden oluşuyor. Menü hedeflerinin içerik sayfaları sonraki tasklarda eklenecek.

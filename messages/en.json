@@ -1,0 +1,10 @@
+{
+  "Navigation": {"primaryLabel":"Primary navigation","home":"Home","services":"Services","sectors":"Sectors","trainings":"Training","equipment":"Equipment","projects":"Projects","about":"About","contact":"Contact"},
+  "Languages": {"tr":"Turkish","en":"English","switchTo":"Switch language to {language}"},
+  "Shared": {"consultationCta":"Request a Consultation","learnMore":"Learn More","back":"Back","continue":"Continue","submit":"Submit Request"},
+  "Form": {"projectStep":"Project Information","contactStep":"Contact Information","applicantType":"Application Type","businessType":"Business Type","serviceType":"Service Type","city":"City","currentState":"Current Status","capacityOrArea":"Capacity or Area","targetDate":"Target Date","budgetRange":"Budget Range","description":"Request Details","fullName":"Full Name","companyName":"Company Name","phone":"Phone","email":"Email","preferredContact":"Preferred Contact Method","kvkkAccepted":"I have read and accept the KVKK notice"},
+  "Validation": {"required":"This field is required.","invalidEmail":"Enter a valid email address.","invalidPhone":"Enter a valid phone number.","selectService":"Select at least one service.","acceptKvkk":"KVKK consent is required to continue.","requestFailed":"Your request could not be submitted. Please try again."},
+  "Success": {"title":"We received your request","description":"Our team will contact you as soon as possible.","referenceNumber":"Your reference number: {referenceNumber}"},
+  "Footer": {"description":"End-to-end consultancy for tourism and hospitality businesses.","legalLabel":"Legal links","kvkk":"KVKK Privacy Notice","privacy":"Privacy Policy","copyright":"© {year} Mihenk. All rights reserved."},
+  "Home": {"eyebrow":"Tourism and hospitality consultancy","title":"Build your business on a stronger foundation.","description":"Mihenk brings expertise and field experience to new investments and the development of established businesses."}
+}
